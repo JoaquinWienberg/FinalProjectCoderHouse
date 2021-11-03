@@ -1,0 +1,36 @@
+/* Variables */
+
+$letra-titulo:'Bebas Neue', cursive ;
+$letra-parrafo:'Roboto', sans-serif ;
+
+/* Mixin */
+
+@mixin flexnoticia ($margin, $padding, $border-radius, $border-size){
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin: $margin;
+    text-align: center;
+    border-left: solid #E5383B $border-size ;
+    border-radius: $border-radius;
+    padding: $padding;
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
+
+/* MAPS */
+
+$colores: (
+    blanco: #FFFFFF,
+    gris1: #F5F3F4,
+    gris2: #d3d3d3,
+    gris3: #B1A7A6,
+    rojo1: #E5383B,
+    rojo2: #BA181B,
+    rojo3: #A4161A,
+    rojo4: #660708,
+    negro1: #161A1D,
+    negro2: #0B090A,
+)

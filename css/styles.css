@@ -1,0 +1,1068 @@
+/* --- GLOBAL --- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --- HEADER --- */
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #F5F3F4;
+    text-transform: capitalize;
+    text-align: center;
+    animation: fadeIn;
+    animation-duration: 2.5s;
+}
+
+.header__logoPagina{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logoArg {
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    animation: fadeIn;
+    animation-duration: 3.5s;
+}
+
+header {
+    padding-top: 0.6rem;
+    background-image: url(../imagenes/headerimg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --- NAV --- */
+
+.navbarM {
+    display: flex;
+    justify-content: center;
+    background-color: #B1A7A6;
+    padding: 2px;
+}
+
+.navbarM__botonM {
+    font-family:'Roboto', sans-serif;
+    background-color:#E5383B;
+    color: #F5F3F4;
+}
+
+.bsA:hover {
+    font-family:'Roboto', sans-serif;
+}
+
+.bsA:hover {
+    font-family:'Roboto', sans-serif;
+    background-color:#E5383B;
+    color: #F5F3F4;
+}
+
+.navbarnoBS {
+    margin: 0;
+    background-color: #B1A7A6;
+    padding: 0;
+}
+
+.navbar__navli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar__navli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navli__item {
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #F5F3F4 !important;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.navli__item:hover {
+    color: #E5383B !important;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.navbar__boton {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F3F4;
+}
+
+.navbar__boton:hover {
+    background-color: #E5383B;
+}
+
+.navbar__fondo {
+    background-color: #B1A7A6;
+    padding: 0.7rem 0;
+    margin: 0%;
+}
+
+nav {
+    background-color: #B1A7A6;
+    padding: 0.7rem 0;
+    border: none;
+}
+
+nav ul li {                                 
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9rem;
+    padding: 0 0.2rem;
+    color: #FFFFFF;
+    transition: font-size 2s;
+}
+
+nav ul li a{                                 
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+nav ul li a:hover{
+    color: #E5383B;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+/* --- MAIN --- */
+
+main {
+    background-color: #F5F3F4;
+    padding: 0.3rem !important;
+}
+
+.videoCarrera {
+    padding-top: 0.6rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+    /* --- VENTANAS NOTICIAS --- */
+
+
+.noticia {                          
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin: 1.3rem 3% 0 3%;
+    text-align: center;
+    border-left: solid #E5383B 1.1rem ;
+    border-radius: 2.5rem 0;
+    padding: 0.6rem;
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
+
+
+.noticia__imgInicio {
+    max-width: 90%;
+    height: auto;
+    border-radius: 0px 0px 2.5rem 0px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #161A1D;
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+}
+
+.noticia__textoNota__parrafoA {
+    font-size: 0.7rem;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    margin: 0 0.9rem;
+}
+
+.parrafoB {                             
+    font-size: 0.7rem;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    margin: 0 0.9rem;
+}
+
+.parrafoC {
+    font-size: 0.7rem;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    margin: 0 0.9rem;
+}
+
+.descEnt {
+    text-align: left;
+}
+
+/* --- GRID HISTORIA --- */
+
+.container__flexHist__cuadroHist {                          
+    background-color: #FFFFFF;
+    text-align: center;
+    border-left: solid #E5383B 1.1rem ;
+    border-radius: 2.5rem 0px;
+    padding: 1% 1%;
+    margin: 3px 0;
+}
+
+.titHist {
+    text-align: left;
+    padding: 5px;
+}
+
+.ceroMarg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container__flexHist {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.cuadroHist__textoHistoria {
+    margin: 0;
+    padding: 0%;
+}
+
+.ceroMarg {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.cuadroHist__paddImg__fotoHist {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px 0px 2.5rem 0px;
+}
+
+.cuadroHist__paddImg {
+    padding: 5%;
+}
+
+
+.cuadroHist__textoHistoria__parrafoD {
+    font-size: 0.7rem;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    margin: 0.6rem 5%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* --- TIENDA --- */
+
+.contenidoTienda {                          
+    background-color: #FFFFFF;
+    margin: 1.3rem 3% 0px 3%;
+    text-align: center;
+    border-left: solid #E5383B 1rem ;
+    border-radius: 1.8rem 0px;
+    animation: slideInLeft;
+    animation-duration: 2s;
+    padding-bottom: 3%;
+}
+
+/* --- CONTACTO --- */
+
+.contenidoContacto {                          
+    background-color: #FFFFFF;
+    margin: 1.3rem 5% 0 5%;
+    text-align: center;
+    border-left: solid #E5383B 1rem ;
+    border-radius: 2.3rem 0px;
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
+
+/* --- TABLAS --- */
+
+.tablaPosiciones {
+    background-color: #FFFFFF;
+    margin: 1.3rem 5% 0 5%;
+    text-align: center;
+    border-left: solid #E5383B 1rem ;
+    border-radius: 2.5rem 0px;
+    padding-bottom: 0.6rem;
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
+
+.tablaPosiciones__contTablas{
+    background-color: #F5F3F4;
+    border-radius: 1.1rem;
+    margin: 1rem 3% 1rem 3%;
+    padding: 1% 0;
+}
+
+.tablaPosiciones__contTablas__tablaPilotos {
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+}
+tr {
+    border:solid 1px #A4161A;
+    font-size: 0.6rem;
+}
+
+td {
+    border:solid 1px #A4161A;
+    background-color: #B1A7A6;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size: 0.6rem;
+    padding: 2px;
+    text-align: left;
+}
+
+th {
+    border: solid 1px #A4161A;
+    background-color: #B1A7A6;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    padding: 2px;
+    font-size: 0.6rem;
+}
+
+.tr__puntos {
+    text-align: center;
+}
+
+
+
+.circFlag {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+}
+
+
+
+form {
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #161A1D;
+}
+
+.tablaTienda {
+    padding: 0.5rem 4%;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.4rem;
+}
+
+/* --- Listas tienda --- */
+
+.listaPrecios {
+    list-style-position: inside;    /* Si bien posee las mismas caracteristicas que .ListaPagos, los mantendré separados por si agrego alguna caracteristica diferente en las proximas entregas. */
+    text-align: left;
+    padding-left: 1%;
+}
+
+.listaPagos {
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+.dias {
+    padding-left: none;
+}
+
+
+
+/* --- FORM --- */
+
+.formInput {
+    text-align: left;
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: block;
+}
+
+form input:focus, textarea:focus{
+    outline: none;
+}
+
+form input[type=text]{
+    background-color: #D3D3D3;
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    border-bottom: solid 2px #A4161A;
+    width: 70%;
+    font-size: 0.8rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #161A1D;
+} 
+
+form input[type=tell]{
+    background-color: #D3D3D3;
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    border-bottom: solid 2px #A4161A;
+    width: 70%;
+    font-size: 0.8rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #161A1D;
+} 
+
+form input[type=email]{
+    background-color: #D3D3D3;
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    border-bottom: solid 2px #A4161A;
+    width: 70%;
+    font-size: 0.8rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #161A1D;
+} 
+
+input[type=text]:focus {
+    background-color: #B1A7A6;
+}
+
+input[type=tell]:focus {
+    background-color: #B1A7A6;
+}
+
+input[type=email]:focus {
+    background-color: #B1A7A6;
+}
+
+.selector {
+    width: auto;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #B1A7A6 ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.7rem;
+}
+
+.sponsor {
+    display: inline;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #B1A7A6;
+    border: solid 1px #A4161A;
+    color: #161A1D;
+    padding: 1.2px 1.2px;
+    text-decoration: none;
+    margin: 1.2px 1.2px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.8rem;
+}
+
+form textarea {
+    width: 70%;
+    height: 6rem;
+    background-color: #D3D3D3;
+    border: solid 1px #A4161A;
+    font-family:'Roboto', sans-serif;
+}
+
+
+/* --- FOOTER --- */
+
+footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,22,26,1) 70%, rgba(177,167,166,1) 100%);
+    text-align: center;
+}
+
+.footerFinal {
+    font-size: 0.7rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #D3D3D3;
+    padding-top: 0.7rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: slideInRight;
+    animation-duration: 2s;
+}
+
+.redesSociales {
+    margin-left: 0.4rem;
+    width: 90%;
+    height: fit-content;
+    color: #D3D3D3;
+    text-align: left;
+}
+
+.redSocial {
+    text-align: justify;
+    margin-left: 5%;
+    padding: 0.3rem;
+}
+
+.ubicacionSa {
+    display: flex;
+    flex-direction: column;
+}
+
+.ubicacionMapa {
+    width: 80%;
+}
+
+.mapaGoogle {
+    max-width: 100%;
+    height: auto;
+}
+
+.direccionNro {
+    text-align: left;
+    padding: 2%;
+}
+
+@media only screen and (min-width: 768px){
+
+    h1 {
+        font-size: 2.6rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+   /* --- NAV --- */
+
+    .navbarM {
+        display: none;
+    } 
+
+    nav {
+        padding: 1.1rem 0px;
+    }
+
+    nav ul li {                                 
+        font-size: 1rem;
+        padding: 0px 40px;
+    }
+
+    nav ul li a{                                 
+        font-size: 1rem;
+        transition: all 1s;
+    }
+
+    nav ul li a:hover {
+        font-size: 1.1rem;
+    }
+
+    .navli__item {
+        font-family:'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #FFFFFF !important;
+        text-decoration: none;
+        transition: all 1s;
+    }
+    
+    .navli__item:hover {
+        color: #E5383B !important;
+        font-weight: bolder;
+        font-size: 1.1rem;
+    }
+
+    /* --- MAIN --- */
+
+    main {
+        padding: 0.9rem;
+    }
+
+    .noticiaIzq {                          
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: solid #E5383B 1.5rem ;
+        border-radius: 3.5rem 0;
+        padding: 1rem;
+    }
+    
+    .noticiaMed {                          
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: solid #E5383B 1.5rem ;
+        border-radius: 3.5rem 0;
+        padding: 1rem;
+    }
+    
+    .noticiaDer {                          
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: solid #E5383B 1.5rem ;
+        border-radius: 3.5rem 0;
+        padding: 1rem;
+    }
+    
+    .imgInicio {
+        max-width: 90%;
+        border-radius: 0px 0px 3.5rem 0px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        padding: 0.6rem 2rem;
+        text-align: left;
+    }
+    
+    .parrafoA {
+        font-size: 0.8rem;
+        margin: 1% 5%;
+    }
+    
+    .parrafoB {                             
+        font-size: 0.8rem;
+        margin: 0 5% 1% 3%;
+    }
+    
+    .parrafoC {
+        font-size: 0.8rem;
+        margin: 0 5% 1% 5%;
+        text-align: justify;
+    }
+    
+    /* --- GRID HISTORIA --- */
+    
+    .cuadroHist {                          
+        margin: 2rem 1.7rem;
+        border-left: solid #E5383B 1.5rem ;
+        border-radius: 3.5rem 0px;
+        padding: 5% 1%;
+    }
+
+    .fotoHist {
+        max-width: 95%;
+        height: auto;
+        border-radius: 0px 0px 3.5rem 0px;
+    }
+    
+    .paddImg {
+        padding: 2%;
+    }
+    
+    
+    .parrafoD {
+        font-size: 0.7rem;
+        margin: 1rem 5%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    h1 {
+        font-size: 3rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .logoArg {
+        padding-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 70%;
+        height: auto;
+    }
+    
+    header {
+        padding-top: 1.2rem;
+    }
+    
+    /* --- NAV --- */
+    
+    nav ul li {                                 
+        font-size: 1.2rem;
+        padding: 0px 40px;
+
+    }
+    
+    .navli__item {
+        font-family:'Roboto', sans-serif;
+        font-size: 1.4rem;
+        color: #FFFFFF !important;
+        text-decoration: none;
+        transition: all 1s;
+    }
+    
+    .navli__item:hover {
+        color: #E5383B !important;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    nav ul li a{                                 
+        font-size: 1.2rem;
+        transition: all 1s;
+    }
+    
+    nav ul li a:hover{
+        font-size: 1.4rem;
+    }
+
+    .subItems {
+        position: relative;
+    }
+    
+    .subMenu {
+        position: absolute;
+        display: none;
+        width: 100%;
+    }
+    
+    
+    .itemSubmenu {
+        width: 70%;
+        background-color: #B1A7A6;
+        border: solid 2px #F5F3F4;
+    }
+    
+    
+    /* --- MAIN --- */
+    
+    main {
+        padding: 1rem
+    }
+    
+    .videoCarrera {
+        padding-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .noticiaIzq {                          
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-left: solid #E5383B 1.7rem ;
+        border-radius: 4rem 0;
+        padding: 1rem;
+        transition: all 1.5s;
+    }
+    
+    .noticiaMed {                          
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-left: solid #E5383B 1.7rem ;
+        border-radius: 4rem 0;
+        padding: 1rem;
+        transition: all 1.5s;
+    }
+    
+    .noticiaDer {                          
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-left: solid #E5383B 1.7rem ;
+        border-radius: 4rem 0;
+        padding: 1rem;
+        transition: all 1.5s;
+    }
+    
+    .imgInicio {
+        width: 100%;
+        border-radius: 0px 0px 4rem 0px;
+        padding: 1% 0;
+        margin: none;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        padding: 0.7rem 2rem;
+        text-align: center;
+    }
+    
+    .parrafoA {
+        font-size: 1rem;
+        margin: 1% 10%;
+    }
+    
+    .parrafoB {                             
+        font-size: 1rem;
+        margin: 0 10% 1% 10%;
+    }
+    
+    .parrafoC {
+        font-size: 1rem;
+        margin: 0 20%;
+        text-align: justify;
+    }
+    
+    /* --- GRID HISTORIA --- */
+    
+    .cuadroHist {                          
+        border-left: solid #E5383B 1.7rem ;
+        border-radius: 4rem 0px;
+        padding: 1% 1%;
+        margin: 2% 3px;
+    }
+
+
+    .titHist {
+        text-align: left;
+        padding: 3px;
+    }
+
+    .ceroMarg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexHist {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .textoHistoria {
+        margin: 0;
+        padding: 0%;
+    }
+
+    .ceroMarg {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .fotoHist {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0px 0px 4rem 0px;
+    }
+    
+    .paddImg {
+        padding: 2%;
+    }
+    
+    
+    .parrafoD {
+        font-size: 1rem;
+        margin: 1rem 1%;
+
+    }
+
+    .container {
+        margin: 0 20%;
+    }
+
+    /* --- TIENDA --- */
+    
+    .contenidoTienda {                          
+        margin: 2rem 20% 0 20%;
+        border-left: solid #E5383B 1.6rem ;
+        border-radius: 4rem 0px;
+    }
+    
+    /* --- CONTACTO --- */
+    
+    .contenidoContacto {                          
+        margin: 2rem 30% 0px 30%;
+        border-left: solid #E5383B 1.6rem ;
+        border-radius: 4rem 0px;
+    }
+    
+    /* --- TABLAS --- */
+    
+    .tablaPosiciones {
+        margin: 30px 30% 0 30%;
+        border-left: solid #E5383B 1.6rem ;
+        border-radius: 4rem 0px;
+        padding-bottom: 1.5rem;
+    }
+    
+    .contTablas{
+        border-radius: 2rem;
+        margin: 1rem 30% 1rem 30%;
+        padding: 0.3rem;
+    }
+    
+    .tablaPilotos {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 2rem;
+    }
+    tr {
+        border:solid 0.18rem #A4161A;
+    }
+    
+    td {    
+        border:solid 2px #A4161A;
+        background-color: #B1A7A6;
+        color: white;
+        font-family:'Roboto', sans-serif;
+        font-size: 1rem;
+        padding: 3px;
+        text-align: left;
+
+    }
+    
+    th {
+        border: solid 0.18rem #A4161A; 
+        padding: 0.2rem;
+        font-size: 1rem;
+    }
+        
+    .circFlag {
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    form {
+        font-size: 2rem;
+
+    }
+    
+    .tablaTienda {
+        padding: 1rem 20%;
+    }
+    
+    
+    /* --- FORM --- */
+    
+    .formInput {
+        margin: 0 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    form input[type=text]{
+        padding: 1px;
+        margin: 1px;
+        border-bottom: solid 0.2rem #A4161A;
+        width: 40%;
+        font-size: 1.6rem;
+    } 
+    
+    form input[type=tell]{
+        padding: 1px;
+        margin: 1px;
+        border-bottom: solid 0.2rem #A4161A;
+        width: 40%;
+        font-size: 1.6rem;
+    } 
+    
+    form input[type=email]{
+        padding: 1px;
+        margin: 1px;
+        border-bottom: solid 0.2rem #A4161A;
+        width: 40%;
+        font-size: 1.6rem;
+    } 
+    
+    .selector {
+        border-radius: 0.8rem;
+        font-size: 1.2rem;
+    }
+    
+    .sponsor {
+        display: inline;
+    }
+    
+    form {
+        margin: 0.2rem 0;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+        padding: 2px 2px;
+        margin: 2px 2px;
+        font-size: 1.2rem;
+    }
+    
+    form textarea {
+        width: 70%;
+        height: 10rem;
+    }
+    
+    /* --- FOOTER --- */
+    
+    .footerFinal {
+        font-size: 1.2rem;
+        padding-top: 1.2rem;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .redesSociales {
+        padding-left: 1rem;
+        text-align: left;
+        margin-left: 20%;
+    }
+    
+    .redSocial {
+        padding: 0.3rem;
+        margin-left: 0;
+    }
+    
+    .direccionNro {
+        text-align: left;
+        padding: 2%;
+    }
+
+    .ubicacionSa {
+        margin-right: 20%;
+    }
+
+}

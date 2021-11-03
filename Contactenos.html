@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- TITULO SOLAPA --->
+    <title>Gran Premio de Argentina F1</title>
+    <!--- GOOGLE FONTS --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!--- CSS --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css"></link>
+    <link rel="stylesheet" href="./css/stylesprueba.css"></link>
+</head>
+<body>
+    
+    <!--- HEADER --->
+    
+    <header>
+        <div class="header__logoPagina">
+            <a href="index.html"  id="header__pad">
+                <img src="imagenes/logo.png" class="header__logoArg" alt="Logo ilustrativo">
+            </a>
+        </div>
+                <!--- NAV BAR ---> 
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbarnoBS">
+                    <div class="container-fluid navbar__fondo">
+                        <button class="navbar-toggler navbar__boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav" id="navbar__navli">
+                            <ul class="navbar-nav navbar__navli">
+                                <li class="nav-item">
+                                    <a class="nav-link navli__item" href="index.html">Inicio </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navli__item" href="posiciones.html">Posiciones </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navli__item" href="Historia.html">Historia </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navli__item" href="Tienda.html">Tienda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navli__item" aria-current="page" href="Contactenos.html">Contáctenos </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+    </header>
+
+    <!--- MAIN --->
+    
+    <main>
+        <div class="contenidoContacto">
+            <h2>Contáctenos</h2>
+            <p class="contenidoContacto__parrafoB">Si desea obtener más información acerca del circuito o de las entradas, no dude en contactarnos. Complete la información a continuación y nos pondremos en contacto con usted.</p>
+            <article class="contenidoContacto__formInput">
+                <form action="guardar.php" method="POST"> 
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" name="nombre">
+
+                    <div>
+                        <label for="E-Mail">E-Mail</label>
+                        <input type="email" name="E-Mail">        
+                    </div>
+
+                    <div>
+                        <label for="Telefono">Telefono</label>
+                        <input type="tell" name="Telefono">        
+                    </div>
+
+                    <div>
+                        <p>Indique como prefiere que nos pongamos en contacto con usted</p>
+                        <select name="contacto" class="selector">
+                            <option value="Telefono"> Teléfono</option>
+                            <option value="E-Mail"> E-mail</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="Newsletter">Desea recibir novedades del Newsletter?</label>
+                        <input type="radio" name="Newsletter" value="Si">Si
+                        <input type="radio" name="Newsletter" value="No">No
+                    </div>
+
+                    <div>
+                        <label for="Sponsor" class="sponsor">Quiero ser un sponsor del evento</label>
+                        <input type="checkbox" name="Sponsor">
+
+                    </div>
+
+                    <div>
+                        <label for="mensaje">Escriba su mensaje aquí</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="reset" value="Limpiar formulario">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </article>
+        </div>
+    </main>
+
+    <!--- FOOTER --->
+    
+    <footer>
+        <div class="footer">    
+            <div class="footer__redesSociales">
+                <p>Seguinos en nuestras redes:</p>
+                <div class="footer__redesSociales__redSocial"><img src="imagenes/gorjeo.png" alt="twitter" class="circFlag"> Twitter</div>
+                <div class="footer__redesSociales__redSocial"><img src="imagenes/facebook.png" alt="Facebook"  class="circFlag"> Facebook</div>
+                <div class="footer__redesSociales__redSocial"><img src="imagenes/instagram.png" alt="Instagram"  class="circFlag"> Instagram</div>
+            </div>
+            <div class="footer_ubicacionSa">
+                <div class="footer_ubicacionSa__direccionNro"> GPA S.A. Todos los derechos reservados 
+                <br>Juan B. Justo 355, CABA, Argentina</div>
+                <div class="footer_ubicacionSa__ubicacionMapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.02887264034!2d-58.42888878477095!3d-34.57813598046603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59af1230eb3%3A0x39ed5e7d99bcfc43!2sAv.%20Juan%20B.%20Justo%20355%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1633316049337!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mapaGoogle"></iframe>
+                </div>
+            </div>
+        </div>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

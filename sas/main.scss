@@ -295,6 +295,22 @@ footer {
     }
 }
 
+/* 404 */ 
+
+.main__404 {
+    background-color: map-get($colores, gris2 );
+    text-align: center;
+
+    &__parrafo {
+        font-family: $letra-parrafo;
+        background-color:  map-get($colores, gris3);
+        color: map-get($colores , negro2 );
+        padding: 50px;
+        font-size: 20px;
+        margin: 0 20%;
+    }
+}
+
 @media only screen and (min-width: 768px){
 
     header {

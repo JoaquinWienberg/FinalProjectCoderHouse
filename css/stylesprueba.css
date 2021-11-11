@@ -215,6 +215,18 @@ footer {
       footer .footer__ubicacionSa__ubicacionMapa {
         width: 80%; }
 
+/* 404 */
+.main__404 {
+  background-color: #d3d3d3;
+  text-align: center; }
+  .main__404__parrafo {
+    font-family: "Roboto", sans-serif;
+    background-color: #B1A7A6;
+    color: #0B090A;
+    padding: 50px;
+    font-size: 20px;
+    margin: 0 20%; }
+
 @media only screen and (min-width: 768px) {
   header {
     padding-top: 0.7rem;

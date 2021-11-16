@@ -87,7 +87,9 @@ header {
 #navbar__navli {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto; }
 
 /* --- MAIN --- */
 main {
@@ -519,8 +521,8 @@ footer {
     .tablaPosiciones__contTablas {
       background-color: #F5F3F4;
       border-radius: 1.1rem;
-      margin: 1rem 3% 1rem 3%;
-      padding: 1% 0; }
+      margin: 1rem 1% 1rem 1%;
+      padding: 1% 5%; }
       .tablaPosiciones__contTablas__tablaPilotos {
         margin-top: 0.5rem;
         margin-left: auto;
@@ -764,7 +766,7 @@ footer {
     .tablaPosiciones__contTablas {
       background-color: #F5F3F4;
       border-radius: 1.1rem;
-      margin: 1rem 20% 1rem 20%;
+      margin: 1rem 2% 1rem 2%;
       padding: 1% 0; }
       .tablaPosiciones__contTablas__tablaPilotos {
         margin-top: 0.5rem;

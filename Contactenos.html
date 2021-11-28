@@ -4,28 +4,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0">
-        <!--- KEYWORDS --->
+        <!-- KEYWORDS -->
         <meta name="description" content="En esta página podrá ingresar sus datos para que nos pongamos en contacto con usted">
         <meta name="keywords" content="Formula 1 Argentina Gran Premio Contacto sponsors">
-        <!--- OPEN GRAPHS --->
+        <!-- OPEN GRAPHS -->
         <meta property ="og:title" content="Circuito Argentino de Formula 1">
         <meta property ="og:description" content="Nos ponemos en contacto con usted.">
         <meta property ="og:image" content="https://ibb.co/yW5YMzz">
-        <!--- TITULO SOLAPA --->
+        <!-- TITULO SOLAPA -->
         <title>Contacto con la organización - F1 Argentina</title>
-        <!--- GOOGLE FONTS --->
+        <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-        <!--- CSS --->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/stylesprueba.css"></link>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/stylesprueba.css">
     </head>
 <body>
     
-    <!--- HEADER --->
+    <!-- HEADER -->
     
     <header>
         <div class="header__logoPagina">
@@ -34,7 +35,12 @@
             </a>
         </div>
         <h1>Gran Premio de Argentina</h1>
-                <!--- NAV BAR ---> 
+                <!-- ANIMACIÖN AUTOS -->
+                <div class="cont-autos">
+                    <img src="imagenes/astonmartin.gif" alt="Aston Martin" class="auto-a">
+                    <img src="imagenes/ferrari.gif" alt="Ferrari" class="auto-b">
+                </div>              
+                <!-- NAV BAR --> 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light navbarnoBS">
                     <div class="container-fluid navbar__fondo">
                         <button class="navbar-toggler navbar__boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,28 +69,33 @@
                 </nav>
     </header>
 
-    <!--- MAIN --->
+    <!-- MAIN -->
     
-    <main>
+    <main class="main">
+
+        <div class="main__entradas">
+            <a href="Tienda.html" class="main__entradas__link"><img src="imagenes/raceflag.gif" class="flag" alt="Regresa la Fórmula 1"> ¡La Fórmula 1 vuelve al pais! Enterate todo sobre las entradas aquí. <img src="imagenes/raceflag.gif" class="flag" alt="Regresa la Fórmula 1"></a>
+        </div>
+
         <div class="contenidoContacto">
-            <h2>Contáctenos</h2>
-            <p class="contenidoContacto__parrafoB">Si desea obtener más información acerca del circuito o de las entradas, no dude en contactarnos. Complete la información a continuación y nos pondremos en contacto con usted.</p>
             <article class="contenidoContacto__formInput">
+                <h2>Contáctenos</h2>
+                <p class="parrafoB">Si desea obtener más información acerca del circuito o de las entradas, no dude en contactarnos. Complete la información a continuación y nos pondremos en contacto con usted.</p>
                 <form action="guardar.php" method="POST"> 
                         <label for="nombre">Nombre completo</label>
-                        <input type="text" name="nombre">
+                        <input type="text" id="nombre">
 
                     <div>
                         <label for="E-Mail">E-Mail</label>
-                        <input type="email" name="E-Mail">        
+                        <input type="email" id="E-Mail">        
                     </div>
 
                     <div>
                         <label for="Telefono">Telefono</label>
-                        <input type="tell" name="Telefono">        
+                        <input type="tel" id="Telefono">        
                     </div>
 
-                    <div>
+                    <div class="news">
                         <p>Indique como prefiere que nos pongamos en contacto con usted</p>
                         <select name="contacto" class="selector">
                             <option value="Telefono"> Teléfono</option>
@@ -92,16 +103,19 @@
                         </select>
                     </div>
 
-                    <div>
-                        <label for="Newsletter">Desea recibir novedades del Newsletter?</label>
-                        <input type="radio" name="Newsletter" value="Si">Si
-                        <input type="radio" name="Newsletter" value="No">No
+                    <div class="news">
+                        <p>Desea recibir novedades del Newsletter?</p>
+                        <div class="newsletterinp">
+                            <input type="radio" id="Nwesletter1" value="Si">
+                            <label for="Nwesletter1">Si</label>
+                            <input type="radio" id="Newsletter2" value="No">
+                            <label for="Newsletter2">No</label>
+                        </div>
                     </div>
 
-                    <div>
+                    <div class="inpsponsor">
                         <label for="Sponsor" class="sponsor">Quiero ser un sponsor del evento</label>
-                        <input type="checkbox" name="Sponsor">
-
+                        <input type="checkbox" id="Sponsor">
                     </div>
 
                     <div>
@@ -118,7 +132,7 @@
         </div>
     </main>
 
-    <!--- FOOTER --->
+    <!-- FOOTER -->
     
     <footer>
         <div class="footer">    
@@ -146,6 +160,10 @@
         </div>  
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

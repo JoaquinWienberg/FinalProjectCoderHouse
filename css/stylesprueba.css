@@ -181,10 +181,10 @@ header {
   .noticia__textoNota {
     padding: 0.4rem 0.4rem; }
     .noticia__textoNota__parrafoA {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       text-align: justify;
       font-family: "Roboto", sans-serif;
-      margin: 0 0.9rem;
+      margin: 0 0.4rem;
       padding: 0.2rem; }
 
 #noticia {

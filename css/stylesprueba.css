@@ -15,15 +15,22 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  header h1 {
-    font-size: 2rem;
-    font-family: "Bebas Neue", cursive;
-    color: #FFFFFF;
-    text-transform: capitalize;
+  header .h1 {
     text-align: center;
-    animation: fadeIn;
-    animation-duration: 2.5s;
-    margin: 0.5rem; }
+    padding: 0;
+    margin: 0; }
+    header .h1 h1 {
+      font-size: 2rem;
+      font-family: "Bebas Neue", cursive;
+      color: #FFFFFF;
+      text-transform: capitalize;
+      text-align: center;
+      animation: fadeIn;
+      animation-duration: 2.5s;
+      margin: 0.3rem 0.5rem 0.3rem 0.5rem;
+      background-color: rgba(212, 212, 212, 0.329);
+      display: inline-block;
+      padding: 0.3rem 0.5rem 0 0.5rem; }
   header .header__logoPagina {
     display: flex;
     justify-content: center; }
@@ -511,7 +518,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
-    header h1 {
+    header .h1 h1 {
       font-size: 2.3rem;
       font-family: "Bebas Neue", cursive;
       color: #F5F3F4;
@@ -776,7 +783,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
-    header h1 {
+    header .h1 h1 {
       font-size: 3rem;
       font-family: "Bebas Neue", cursive;
       color: #F5F3F4;

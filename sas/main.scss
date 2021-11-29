@@ -18,15 +18,26 @@ header {
     background-size: cover;
     background-position: center;
 
-    h1 {
-        font-size: 2rem;
-        font-family: $letra-titulo;
-        color: map-get($colores, blanco);
-        text-transform: capitalize;
+    .h1 {
+
         text-align: center;
-        animation: fadeIn;
-        animation-duration: 2.5s;
-        margin: 0.5rem; 
+        padding: 0;
+        margin: 0;
+
+        h1 {
+            font-size: 2rem;
+            font-family: $letra-titulo;
+            color: map-get($colores, blanco);
+            text-transform: capitalize;
+            text-align: center;
+            animation: fadeIn;
+            animation-duration: 2.5s;
+            margin: 0.3rem 0.5rem 0.3rem 0.5rem;
+            background-color: map-get($colores , opaco );
+            display: inline-block;
+            padding: 0.3rem 0.5rem 0 0.5rem;
+        }
+
     }
     
     .header__logoPagina{
@@ -672,14 +683,17 @@ footer {
         background-size: cover;
         background-position: center;
     
-        h1 {
-            font-size: 2.3rem;
-            font-family: $letra-titulo;
-            color: map-get($colores , gris1 );
-            text-transform: capitalize;
-            text-align: center;
-            animation: fadeIn;
-            animation-duration: 2.5s; 
+        .h1 {
+        
+            h1 {
+                font-size: 2.3rem;
+                font-family: $letra-titulo;
+                color: map-get($colores , gris1 );
+                text-transform: capitalize;
+                text-align: center;
+                animation: fadeIn;
+                animation-duration: 2.5s; 
+            }
         }
         
         &__logoPagina{
@@ -1046,15 +1060,19 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-    
-        h1 {
-            font-size: 3rem;
-            font-family: $letra-titulo;
-            color: map-get($colores , gris1 );
-            text-transform: capitalize;
-            text-align: center;
-            animation: fadeIn;
-            animation-duration: 2.5s; 
+        
+        .h1 {
+
+            h1 {
+                font-size: 3rem;
+                font-family: $letra-titulo;
+                color: map-get($colores , gris1 );
+                text-transform: capitalize;
+                text-align: center;
+                animation: fadeIn;
+                animation-duration: 2.5s; 
+            }
+
         }
         
         &__logoPagina{

@@ -502,12 +502,15 @@ footer {
 /* 404 */
 .main__404 {
   background-color: #d3d3d3;
-  text-align: center; }
+  text-align: center;
+  display: block;
+  padding: 1.2rem 0; }
   .main__404__parrafo {
     font-family: "Roboto", sans-serif;
     background-color: #B1A7A6;
+    border-radius: 3rem;
     color: #0B090A;
-    padding: 50px;
+    padding: 3rem;
     font-size: 1.2rem;
     margin: 0 20%; }
 
